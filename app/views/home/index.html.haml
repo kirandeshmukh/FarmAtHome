@@ -1,1 +1,6 @@
 %h1 Welcome Farmers
+/ = @inventories
+= button_to "Add Inventory", new_inventory_path, method: :get, class: "btn btn-primary"
+= button_to "List Inventory", inventories_path, method: :get, class: "btn btn-primary"
+
+
