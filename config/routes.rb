@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :inventories
   resources :categories do
     resources :items
   end
